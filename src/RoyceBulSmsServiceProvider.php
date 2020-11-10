@@ -29,5 +29,8 @@ class RoyceBulSmsServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+        $this->publishes([
+            __DIR__ . '/config/roycebulksms.php' =>  config_path('roycebulksms.php'),
+        ], 'config');
     }
 }
