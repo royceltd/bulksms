@@ -1,0 +1,11 @@
+{
+    "name": "royceltd/bulksms",
+    "description": "Laravel package for bulk sms",
+    "authors": [
+        {
+            "name": "Royce Technologies Ltd",
+            "email": "developer@roycetechnologies.co.ke"
+        }
+    ],
+    "require": {}
+}
