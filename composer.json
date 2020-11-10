@@ -3,7 +3,7 @@
     "description": "Laravel package for bulk sms",
     "type": "library",
     "license": "MIT",
-    "version":"1.2",
+    "version": "0.1",
     "authors": [
         {
             "name": "Royce Technologies Ltd",
