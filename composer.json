@@ -1,11 +1,26 @@
 {
     "name": "royceltd/bulksms",
     "description": "Laravel package for bulk sms",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Royce Technologies Ltd",
             "email": "developer@roycetechnologies.co.ke"
         }
     ],
-    "require": {}
+    "minimum-stability": "stable",
+    "require": {
+        "ixudra/curl": "6.*"
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "RoyceLtd\\BulkSMS\\RoyceBulSmsServiceProvider"
+        ],
+        "aliases": {
+            "RoyceBulkSMS": "RoyceLtd\\BulkSMS\\Facades\\RoyceBulkSMSFacade"
+        }
+    }
+},
 }
