@@ -3,6 +3,7 @@
     "description": "Laravel package for bulk sms",
     "type": "library",
     "license": "MIT",
+    "version":"1.2",
     "authors": [
         {
             "name": "Royce Technologies Ltd",
@@ -12,6 +13,12 @@
     "minimum-stability": "stable",
     "require": {
         "ixudra/curl": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "royceltd\\bulksms\\": "src"
+        }
+
     },
     "extra": {
     "laravel": {
