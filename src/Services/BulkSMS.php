@@ -8,4 +8,8 @@ class BulkSMS
     {
         dd('dumping shopping cart');
     }
+    public function royce()
+    {
+        dd('Conquring africa');
+    }
 }

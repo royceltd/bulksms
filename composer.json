@@ -16,7 +16,7 @@
     "extra": {
     "laravel": {
         "providers": [
-            "RoyceLtd\\BulkSMS\\RoyceBulSmsServiceProvider"
+            "RoyceLtd\\BulkSMS\\RoyceBulkSmsServiceProvider"
         ],
         "aliases": {
             "RoyceBulkSMS": "RoyceLtd\\BulkSMS\\Facades\\RoyceBulkSMSFacade"

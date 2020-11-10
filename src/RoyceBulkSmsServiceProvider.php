@@ -5,7 +5,7 @@ namespace RoyceLtd\BulkSMS;
 use Illuminate\Support\ServiceProvider;
 use RoyceLtd\BulkSMS\Services\BulkSMS;
 
-class RoyceBulSmsServiceProvider extends ServiceProvider
+class RoyceBulkSmsServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
