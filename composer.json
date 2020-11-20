@@ -14,6 +14,11 @@
     "require": {
         "ixudra/curl": "6.*"
     },
+        "autoload-dev": {
+        "psr-4": {
+           "RoyceLtd\\BulkSMS\\": "src"
+        }
+    },
     "autoload": {
         "psr-4": {
             "RoyceLtd\\BulkSMS\\": "src"
