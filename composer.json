@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "royceltd\\bulksms\\": "src"
+            "RoyceLtd\\BulkSMS\\": "src"
         }
 
     },
